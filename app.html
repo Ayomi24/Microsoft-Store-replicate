@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps - Microsoft Apps</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
+</head>
+<body style="background-color: #101010;">
+    <header style="display: flex; align-items: center; background-color: black; height: 7vw; position: sticky; z-index: 3; top: -6px; width: 100%;">
+        <div style="cursor: pointer; display: inline-flex; padding-left: 5.5vw; flex-shrink: 0;" class="title">
+            <a style="display: flex;">
+                <img style="width: 120px; height: 36px;" src="microsoft-logo-light-1.png">
+                <img style="width: 54px; height: 36px;" src="microsoft-logo-light-2.png">
+            </a>
+        </div>
+        <nav class="menu" style="flex-shrink: 0; margin-left: 5vw; margin-right: auto;">
+            <ul style="list-style-type: none; display: flex;">
+                <li><a style="margin-right: 25px; text-decoration-line: none; color: hsl(240 7.3% 84%);" href="home.html">Home</a></li>
+                <li><a style="margin-right: 25px;  color: #60CDFF;" href="app.html">Apps</a></li>
+                <li><a style="margin-right: 25px; text-decoration-line: none; color: hsl(240 7.3% 84%);" href="game.html">Games</a></li>
+                <li><a style="text-decoration-line: none; color: hsl(240 7.3% 84%);" href="ent.html">Entertainment</a></li>
+            </ul>
+        </nav>
+        <div style="padding-right: 5vw; display: flex;">
+            <input type="search" placeholder="Search Apps, games, movies and more" style="background-color: hsl(240, 5.9%, 11%); border-radius: 0.3rem; width: 23vw;">  
+            <a style="text-decoration: none;" href="ms-windows-store://?referrer=storeforweb"><button  style="cursor: pointer; position: relative; margin-left: 2vw; border-radius: 0.3rem; display: flex; align-items: center; background-color: skyblue; padding: 6px 16px 6px; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"><img style="width: 20px; height: 20px;" src="dark-logo-32x32.png">Open Store App</button></a>
+        </div>
+        <style>
+            ::-webkit-input-placeholder{
+                color: hsl(240 7.3% 84%);
+            }
+        </style>
+    </header>
+    <div class="main" style="padding-left: 5vw; padding-top: 3vw; padding-bottom: 2vw; display: flex;">
+        <div class="slider-containers" style=" width:3vw; height: 30vw; border: 1px; border-radius: 1vw; margin-right: 25px;">
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: right;">
+                <img src="draw freely frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: right;">
+                <img src="VSCO photo editor.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: right;">
+                <img src="microsoft 365 frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: right;">
+                <img src="best entertainment frame.jpg">
+            </div>
+        </div>
+        <div class="slider-container" style=" width: 59vw; height: 30vw; border: 1px; border-radius: 1vw; margin-right: 25px;">
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw;">
+                <img src="VSCO photo editor.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw;">
+                <img src="microsoft 365 frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw;">
+                <img src="best entertainment frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw;">
+                <img src="draw freely frame.jpg">
+            </div>
+        </div>
+        <div class="slider-containers" style=" width: 15vw; height: 30vw; border: 1px; border-radius: 1vw; margin-right: 25px;">
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: center;">
+                <img src="microsoft 365 frame.jpg">
+            </div> 
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: center;">
+                <img src="best entertainment frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: center;">
+                <img src="draw freely frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: center;">
+                <img src="VSCO photo editor.jpg">
+            </div>
+        </div>
+        <div class="slider-containers" style=" width: 3vw; height: 30vw; border: 1px; border-radius: 1vw;">
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: left;">
+                <img src="best entertainment frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: left;">
+                <img src="draw freely frame.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: left;">
+                <img src="VSCO photo editor.jpg">
+            </div>
+            <div style="border-radius: 1vw; overflow: hidden; height: 30vw; display: flex; justify-content: left;">
+            <img src="microsoft 365 frame.jpg">
+            </div>
+        </div>
+    </div>
+    <a style="text-decoration: none;" href="">
+        <h1 onmouseover="this.style.transform='translate3d(calc(1*0.75rem),0,0)'; this.style.backgroundColor='hsla(0, 0%, 30%, 0.4)'; this.style.color='#99ebff'" onmouseout="this.style.transform='translate3d(0,0,0)'; this.style.backgroundColor=''; this.style.color='#fff'" style="color: #fff; padding: 6px 16px 6px; margin-left: 9.5vw; border-radius: 0.5rem; width: fit-content; transition: all 200ms ease-out 0s; margin-left: 9.2vw; margin-top: 5vw; font-size: 1.25rem; font-weight: 600; font-family: Segoe UI Variable Display, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Top free apps<img style="position: relative; top: 6px;" src="chevron-right-regular-24.png"></h1>
+    </a>
+    <div style=" padding-left: 9vw; padding-right: 9vw; display: flex; flex-wrap: wrap;" class="top free 1">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="itunes">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="itunes.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 260px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">iTunes</div>
+                        <div style="margin-left: 127px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">2.6 <span style="color: #D1D1D1;" >Music</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="spotify">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="spotify.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 260px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Spotify Music</div>
+                        <div style="margin-left: 67px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 <span style="color: #D1D1D1;" >Music</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="netflix">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img  style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="netflix.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 260px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Netflix</div>
+                        <div style="margin-left: 127px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28);border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.4 <span style="color: #D1D1D1;" >Entertainment</span></div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div style=" padding-left: 9vw; padding-right: 9vw; display: flex; flex-wrap: wrap;" class="top free 2">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="whatsapp">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="whatsapp.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 260px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Whatsapp</div>
+                        <div style="margin-left: 96px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.0 <span style="color: #D1D1D1;" >Social</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="icloud">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img  style=" width: 79px; height: 79px;" src="icloud.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 260px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">iCloud</div>
+                        <div style="margin-left: 127px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28);border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">2.8 <span style="color: #D1D1D1;" >Productivity</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="windows-scan">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw; width: 79px; height: 79px; background-color: #2671EB; border-radius: 0.5rem;"><img style="border-radius: 0.5rem;" src="windows scan.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 300px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Windows Scan</div>
+                        <div style="margin-left: 70px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.3 <span style="color: #D1D1D1;" >Utilities & tools</span></div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <a style="text-decoration: none;" href="essential-apps.html">
+        <h1 onmouseover="this.style.transform='translate3d(calc(1*0.75rem),0,0)'; this.style.backgroundColor='hsla(0, 0%, 30%, 0.4)'; this.style.color='#99ebff'" onmouseout="this.style.transform='translate3d(0,0,0)'; this.style.backgroundColor=''; this.style.color='#fff'" style="color: #fff; padding: 6px 16px 6px; margin-left: 9.5vw; border-radius: 0.5rem; width: fit-content; transition: all 200ms ease-out 0s; margin-top: 5vw; font-size: 1.25rem; font-weight: 600; font-family: Segoe UI Variable Display, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Essential apps<img style="position: relative; top: 6px;" src="chevron-right-regular-24.png"></h1>
+    </a>
+    <div style="padding-left: 9vw; width: 80vw; overflow-x: hidden; display: flex;">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href="tiktok.html"><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="tik-tok">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to bottom right, #403c41, #513840); align-items: center;"><img style="height: 79px; width: 79px;" src="tiktok.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">TikTok</div>
+                <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2</div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="adb">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #c11314; align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="adb.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobo Acrobat Reader DC</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="linkedin">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="linkedin.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">LinkedIn</div>
+                <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.8 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="threads">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(#454545, #454545); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="threads.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Threads, an Instagram app</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.8 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="breezip">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #5f2c63, #9a1f36); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="breezip.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;;">BreeZip: RAR & ZIP Extractor</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.7 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="adobe elements">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005fb8c3; align-items: center;"><img style="height: 79px; width: 79px;" src="ps.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobe Photoshop Elements 2024</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.1 </div>
+                    <div style="margin-left: 85px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">$99.99</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="liquidtest">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #274b57; align-items: center;"><img style="height: 79px; width: 79px;" src="liquidtest.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">LiquidText</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="adb">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #C21C0D; align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="adb.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobe Acrobat Reader DC</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.3 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div style="padding-left: 9vw; margin-top: 60px; padding-bottom: 60px;">
+        <img style="width: 1080px; height: 300px; border-radius: 0.5rem; position: absolute;" src="photo and video editing apps.jpg">
+        <div style="padding-left: 2vw; display: flex; position: relative; top: 30px;">
+            <div style="width: 310px; margin-right: 45px;">
+                <h1 style="color: hsl(0 0% 95%);; font-size: 1.5rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"> Photo and video editing apps</h1>
+                <h2 style="margin-bottom: 50px; color: hsl(0 0% 95%); font-size: 0.8rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Turn your favourite photos and videos into works of art with these great apps</h2>
+                <a href="" style="text-decoration: none; padding: 10px 30px 10px; border-radius: 0.25rem; background: hsla(0, 0%, 30%, 0.4); color: hsl(0 0% 95%); font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" >See all</a>
+            </div>
+            <div style="display: flex;">
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="capcut">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: linear-gradient(to right, #404041, #404041); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="capcut.png"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">CapCut</div>
+                        <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.8 </div>
+                            <div style="margin-left: 85px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                        </div>
+                    </div>
+                </div></a>
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="movie-maker">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: linear-gradient(to right, #155db0, #145eb7); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="movie maker.png"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Movie Maker - Video Editor...</div>
+                        <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.5 </div>
+                            <div style="margin-left: 75px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">$19.99</div>
+                        </div>
+                    </div>
+                </div></a>
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="paint-net">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: radial-gradient(circle, #3d4459, #363943); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="paint.png"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Paint.net</div>
+                        <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.6 </div>
+                            <div style="margin-left: 85px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">$9.99</div>
+                        </div>
+                    </div>
+                </div></a>
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="film-forth">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: linear-gradient(to right, #243d67, #673133); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="filmforth.jpg"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">FilmForth - Video Editor &...</div>
+                        <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                            <div style="margin-left: 75px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                        </div>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+    </div>
+    <a style="text-decoration: none;" href="social-networking-apps.html">
+        <h1 onmouseover="this.style.transform='translate3d(calc(1*0.75rem),0,0)'; this.style.backgroundColor='hsla(0, 0%, 30%, 0.4)'; this.style.color='#99ebff'" onmouseout="this.style.transform='translate3d(0,0,0)'; this.style.backgroundColor=''; this.style.color='#fff'" style="color: #fff; padding: 6px 16px 6px; margin-left: 9.5vw; margin-top: 3vw; border-radius: 0.5rem; width: fit-content; transition: all 200ms ease-out 0s; margin-top: 5vw; font-size: 1.25rem; font-weight: 600; font-family: Segoe UI Variable Display, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Social networking apps<img style="position: relative; top: 6px;" src="chevron-right-regular-24.png"></h1>
+    </a>
+    <div style="padding-left: 9vw; width: 80vw; overflow-x: hidden; display: flex;">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="facebook">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #1658a4, #145db7); align-items: center;"><img style="height: 79px; width: 79px;" src="facebook.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Facebook</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.1</div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="discord">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #1b31a8, #2032b4); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="discord.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Discord</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="linkedin">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="linkedin.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">LinkedIn</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.9 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="snapchat">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: radial-gradient(circle, #4b4b12, #414118); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="snapchat.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Snapchat</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="tumblr">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: radial-gradient(circle, #4b3d5a, #3a3a47); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="tumblr.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;;">Tumblr</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.5 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="reddit">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #9f1c18, #bc1d14); align-items: center;"><img style="height: 79px; width: 79px;" src="reddit.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Reddit</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.1 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="liquidtest">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #274b57; align-items: center;"><img style="height: 79px; width: 79px;" src="liquidtest.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">LiquidText</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="adb">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #C21C0D; align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="adb.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobe Acrobat Reader DC</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.3 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <a style="text-decoration: none;" href="">
+        <h1 onmouseover="this.style.transform='translate3d(calc(1*0.75rem),0,0)'; this.style.backgroundColor='hsla(0, 0%, 30%, 0.4)'; this.style.color='#99ebff'" onmouseout="this.style.transform='translate3d(0,0,0)'; this.style.backgroundColor=''; this.style.color='#fff'" style="color: #fff; padding: 6px 16px 6px; margin-left: 9.5vw; border-radius: 0.5rem; width: fit-content; transition: all 200ms ease-out 0s; margin-top: 5vw; font-size: 1.25rem; font-weight: 600; font-family: Segoe UI Variable Display, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Creativity apps<img style="position: relative; top: 6px;" src="chevron-right-regular-24.png"></h1>
+    </a>
+    <div style="padding-left: 9vw; width: 80vw; overflow-x: hidden; display: flex;">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="canva">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to bottom right, #165e96, #2d22a9); align-items: center;"><img style="height: 79px; width: 79px;" src="canva.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Canva</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.4</div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="ibis">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #404032, #424531, #4a402f, #414442, #3f3f47); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="ibis paint.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Ibis Paint</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.1 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="sketchbook">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #b21415, #cb1112); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="sketchbook pro.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Sketchbook Pro</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.4 </div>
+                    <div style="margin-left: 85px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">$24.99</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="paint">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to bottom right, #353c4b, #3d3a43); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="paint.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Paint.net</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.7 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">$9.99</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="affinity">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #145fb3, #1469b6); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="affinity.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;;">Afiinity Designer 2</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.6 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="concept">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to bottom right, #5e3617, #962318); align-items: center;"><img style="height: 79px; width: 79px;" src="concepts.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Concepts</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.6 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="liquidtest">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #274b57; align-items: center;"><img style="height: 79px; width: 79px;" src="liquidtest.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">LiquidText</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="adb">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #C21C0D; align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="adb.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobe Acrobat Reader DC</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.3 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div style="padding-left: 9vw; margin-top: 60px; padding-bottom: 60px;">
+        <img style="width: 1080px; height: 300px; border-radius: 0.5rem; position: absolute;" src="utility apps.jpg">
+        <div style="padding-left: 2vw; display: flex; position: relative; top: 30px;">
+            <div style="width: 310px; margin-right: 45px;">
+                <h1 style="color: hsl(0 0% 95%);; font-size: 1.5rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"> Utility apps</h1>
+                <h2 style="margin-bottom: 50px; color: hsl(0 0% 95%); font-size: 0.8rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Check out these top apps to get the most out of your device</h2>
+                <a href="" style="text-decoration: none; padding: 10px 30px 10px; border-radius: 0.25rem; background: hsla(0, 0%, 30%, 0.4); color: hsl(0 0% 95%); font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" >See all</a>
+            </div>
+            <div style="display: flex;">
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="omen">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: linear-gradient(to right, #ae152d, #b71314, #b21615); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="omen.png"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">OMEN Gaming Hub</div>
+                        <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.7 </div>
+                            <div style="margin-left: 85px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                        </div>
+                    </div>
+                </div></a>
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="1-file-viewer">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: radial-gradient(circle, #94243b, #8f2318); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="1-file view.png"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">1 File Viewer: PPTX, DOC &...</div>
+                        <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.5 </div>
+                            <div style="margin-left: 75px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                        </div>
+                    </div>
+                </div></a>
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="one-calender">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: linear-gradient(to top right, #283d5c, #16428f); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="one-calender.png"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">One Calender</div>
+                        <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                            <div style="margin-left: 85px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">$9.99</div>
+                        </div>
+                    </div>
+                </div></a>
+                <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 160px; height: 230px; background-color: hsl(240 5.1% 15%);" class="pdf">
+                    <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 160px; background: radial-gradient(circle, #bd1213, #9d1617); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="pdf.png"></div>
+                    <div style="position: relative; padding: 1vw;">
+                        <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">PDF X: PDF Editor & PDF...</div>
+                        <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                            <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.8 </div>
+                            <div style="margin-left: 75px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                        </div>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+    </div>
+    <a style="text-decoration: none;" href="">
+        <h1 onmouseover="this.style.transform='translate3d(calc(1*0.75rem),0,0)'; this.style.backgroundColor='hsla(0, 0%, 30%, 0.4)'; this.style.color='#99ebff'" onmouseout="this.style.transform='translate3d(0,0,0)'; this.style.backgroundColor=''; this.style.color='#fff'" style="color: #fff; padding: 6px 16px 6px; margin-left: 9.5vw; border-radius: 0.5rem; width: fit-content; transition: all 200ms ease-out 0s; margin-top: 60px; font-size: 1.25rem; font-weight: 600; font-family: Segoe UI Variable Display, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">New & trending apps<img style="position: relative; top: 6px;" src="chevron-right-regular-24.png"></h1>
+    </a>
+    <div style="padding-left: 9vw; display: flex; flex-wrap: wrap;" class="new & trending">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="ubuntu">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="ubuntu.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 260px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Ubuntu 24.04 LTS</div>
+                        <div style="margin-left: 30px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.8 <span style="color: #D1D1D1;" >Developer tools</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="edison">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img  style=" width: 79px; height: 79px;" src="edison mail.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 220px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Edison Mail - Fast & Secure Email</div>
+                        <div style="margin-left: 20px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28);border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.6 <span style="color: #D1D1D1;" >Productivity</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="pdj">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="personal digital.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 220px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Personal Digital Journal: Note Taker</div>
+                        <div style="margin-left: 20px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.5 <span style="color: #D1D1D1;" >Productivity</span></div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div style="padding-left: 9vw; display: flex; flex-wrap: wrap;" class="top free 2">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="free vpn">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="free vpn.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 220px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Free VPN: Fast & Secure VPN</div>
+                        <div style="margin-left: 30px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.5 <span style="color: #D1D1D1;" >Utility & tools</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; margin-right: 10px; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="sketch3d">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw;"><img  style=" width: 79px; height: 79px; border-radius: 0.5rem;" src="sketch3D.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 223px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Sketch3D - Home and Interior Design</div>
+                        <div style="margin-left: 3px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28);border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">5.0 <span style="color: #D1D1D1;" >Utility & tools</span></div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-bottom: 1.5vw; height: 120px; width: 352px; background-color: hsl(240 5.1% 15%);border-radius: 0.5rem; " class="andriod-file-transfer">
+            <div style="padding: 1.5vw; display: flex;">
+                <div style="margin-right: 1.5vw; width: 79px; height: 79px; background-color: #107C10; border-radius: 0.5rem;"><img style="border-radius: 0.5rem;" src="android file transfer.png"></div>
+                <div class="hint">
+                    <div style="display: flex; align-items: center; width: 220px;"> 
+                        <div style="color: hsl(240 7.3% 84%); font-size: 1rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Andriod File Transfer - Transfer your files</div>
+                        <div style="margin-left: 20px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                    </div>
+                    <div style="float: left; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">5.0 <span style="color: #D1D1D1;" >Entertainment</span></div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <a style="text-decoration: none;" href="social-networking-apps.html">
+        <h1 onmouseover="this.style.transform='translate3d(calc(1*0.75rem),0,0)'; this.style.backgroundColor='hsla(0, 0%, 30%, 0.4)'; this.style.color='#99ebff'" onmouseout="this.style.transform='translate3d(0,0,0)'; this.style.backgroundColor=''; this.style.color='#fff'" style="color: #fff; padding: 6px 16px 6px; margin-left: 9.5vw; border-radius: 0.5rem; width: fit-content; transition: all 200ms ease-out 0s; margin-top: 5vw; font-size: 1.25rem; font-weight: 600; font-family: Segoe UI Variable Display, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Top paid apps<img style="position: relative; top: 6px;" src="chevron-right-regular-24.png"></h1>
+    </a>
+    <div style="padding-left: 9vw; width: 80vw; overflow-x: hidden; display: flex;">
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="hevc">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to bottom right, #1461b6, #1460b4); align-items: center;"><img style="height: 79px; width: 79px; background-color: #0078d7;" src="hevc.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">HEVC Video Extensions</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">1.3</div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">$0.99</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="adobe">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #144e9f, #1451a5); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="adobe ps.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobe Photoshop</div>
+                <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.9</div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Paid</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="lightroom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #1451a5, #135099); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="adobe lightroom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobe Lightroom</div>
+                <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.7 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Paid</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="norton-360">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: radial-gradient(circle, #4b4b12, #414118); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="norton 360.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Norton 360</div>
+                <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Paid</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="1password">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #1a3e93, #16419d); align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="1password.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;;">1Password - Password Manager</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Paid</div>
+                </div>
+            </div>
+        </div></a>
+        <a onmouseover="this.style.transform='translate3d(0,calc(-1*0.25rem),0)';" onmouseout="this.style.transform='translate3d(0,0,0)';" style="transition: all 200ms ease-out 0s; text-decoration: none;" href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="gearup">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background: linear-gradient(to right, #1b3fa9, #164195); align-items: center;"><img style="height: 79px; width: 79px;" src="gearup.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">GearUp Booster</div>
+                <div style="position: absolute !important; bottom: -50px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Paid</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="liquidtest">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #274b57; align-items: center;"><img style="height: 79px; width: 79px;" src="liquidtest.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">LiquidText</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">4.2 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="adb">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #C21C0D; align-items: center;"><img style="height: 79px; width: 79px; border-radius: 0.5rem;" src="adb.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Adobe Acrobat Reader DC</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.3 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div style="margin-right: 1vw; border-radius: 0.5rem; width: 170px; height: 230px; background-color: hsl(240 5.1% 15%);" class="zoom">
+            <div style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; display: flex; justify-content: center; height: 120px; width: 170px; background-color: #005FB8; align-items: center;"><img style="height: 79px; width: 79px;" src="zoom.png"></div>
+            <div style="position: relative; padding: 1vw;">
+                <div style="color: hsl(240 7.3% 84%); font-weight: 700; font-size: 0.875rem; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Zoom - One Platform to...</div>
+                <div style="position: absolute !important; bottom: -30px; display: flex; justify-content: center;">
+                    <div style="font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 5.3% 58%);">3.4 </div>
+                    <div style="margin-left: 95px; font-size: 0.75rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(0 0% 95%); background: rgb(28, 28, 28); border-radius: 0.25rem; padding: 0.25vw;">Free</div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <footer style="min-height: 470px; margin-top: 3vw; background-color: hsl(240, 5.9%, 11%);" >
+        <div style="padding-left: 9vw; padding-top: 2vw; display: flex;">
+            <div style="display: grid; height: 250px; margin-right: 95px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">What's New</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">More content in the Microsoft Store</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"  href="">Apps</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Games</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Movies & TV</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Windows Experience Blog</a></div>
+            </div>
+            <div style="display: grid; height: 250px; margin-right: 95px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Microsoft Store</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Microsoft account</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Microsoft Store support</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Returns</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Flexible payments</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Policies and Code of Conduct</a></div>
+            </div>
+            <div style="display: grid; height: 190px; margin-right: 95px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">For Developers</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Publish your app</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"  href="">Advertise with us</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Generate your app badge</a></div>
+            </div>
+            <div style="display: grid; height: 350px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Windows</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Careers</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"  href="">About Microsoft</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Company News</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Investors</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Diversity & inclusion</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Accessibility</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Sustainability</a></div>
+            </div>
+        </div>
+        <div style="display: flex; padding-left: 9vw; margin-top: 50px;">
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Contact Microsoft</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Privacy</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Consumer Health Privacy</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Terms of use</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Trademarks]</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Safety & eco</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Recycling</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">About our ads</a>
+            <label id="copyright" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">&copy; DevMidey 2023</label>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+           $('.slider-container').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            Infinite: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+        })
+           $('.slider-containers').slick({
+            Infinite: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+        })
+    </script>
+    <script>
+        var currentYear = new Date().getFullYear();
+        document.getElementById('copyright').innerHTML = 
+        '&copy;' +' ' + 'DevMidey' + ' ' + currentYear; 
+    </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok - Microsoft apps</title>
+</head>
+<body style="background-color: #101010;">
+    <header style="display: flex; align-items: center; background-color: black; height: 7vw; position: sticky; z-index: 3; top: -6px; width: 100%;">
+        <div style="cursor: pointer; display: inline-flex; padding-left: 5.5vw; flex-shrink: 0;" class="title">
+            <a style="display: flex;">
+                <img style="width: 120px; height: 36px;" src="microsoft-logo-light-1.png">
+                <img style="width: 54px; height: 36px;" src="microsoft-logo-light-2.png">
+            </a>
+        </div>
+        <nav class="menu" style="flex-shrink: 0; margin-left: 5vw; margin-right: auto;">
+            <ul style="list-style-type: none; display: flex;">
+                <li><a style="margin-right: 25px; color: hsl(240 7.3% 84%);" href="home.html">Home</a></li>
+                <li><a style="margin-right: 25px; text-decoration-line: none; color: hsl(240 7.3% 84%);" href="apps.html">Apps</a></li>
+                <li><a style="margin-right: 25px; text-decoration-line: none; color: hsl(240 7.3% 84%);" href="games.html">Games</a></li>
+                <li><a style="text-decoration-line: none; color: hsl(240 7.3% 84%);" href="ent.html">Entertainment</a></li>
+            </ul>
+        </nav>
+        <div style="padding-right: 5vw; display: flex;">
+            <input type="search" placeholder="Search Apps, games, movies and more" style="background-color: hsl(240, 5.9%, 11%); border-radius: 0.3rem; width: 23vw;">  
+            <a><button  style="cursor: pointer; position: relative; margin-left: 2vw; border-radius: 0.3rem; display: flex; align-items: center; background-color: skyblue; padding: 6px 16px 6px; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"><img style="width: 20px; height: 20px;" src="dark-logo-32x32.png">Open Store App</button></a>
+        </div>
+        <style>
+            ::-webkit-input-placeholder{
+                color: hsl(240 7.3% 84%);
+            }
+        </style>
+    </header>
+    <div>
+        <img style="position: absolute; top: -120px; left: 80px; width: 1200px; height: 850px; filter: blur(40px) opacity(0.6); " src="tiktok.png">
+        <div style="display: flex; position: relative; left: 120px; top: 110px;"> 
+            <img style="height: 200px; width: 200px;" src="tiktok.png">
+            <div style=" padding-left: 1vw;" class="texts">
+                <div style="color: white; margin-bottom: 1.5vw; font-size: 2rem; font-weight: 700; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">TikTok</div>
+                <a style="font-size: 1rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: #60CDFF; cursor: pointer; text-decoration: none;" onmouseover="this.style.color='skyblue'" onmouseout="this.style.color='#60CDFF'">TikTok Pte. Ltd.</a>
+                <div style="margin-top: 1.5vw; font-size: 1rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; color: hsl(240 7.3% 84%);">4.2    8.42k   ratings  <a  onmouseover="this.style.color='skyblue'" onmouseout="this.style.color='#60CDFF'" style="cursor: pointer; text-decoration: none; color: #60CDFF;">Entertainment</a> </div>
+                <div onclick="showCustomAlert()" style="cursor: pointer; background-color: #60CDFF; width: 80px; color: black; border-radius: 0.5rem; margin-top: 2vw; padding: 1vw 2vw 1vw; font-size: 1rem; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" onmouseover="this.style.backgroundColor='skyblue'" onmouseout="this.style.backgroundColor='#60CDFF'"> Download</div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCustomAlert()">&times;</span>
+            <p style="color: white;">Thanks for downloading!</p>
+        </div>
+    </div>
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: black;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 300px;
+            text-align: center;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+    <footer style="min-height: 470px; margin-top: 3vw; background-color: hsl(240, 5.9%, 11%);" >
+        <div style="padding-left: 9vw; padding-top: 2vw; display: flex;">
+            <div style="display: grid; height: 250px; margin-right: 95px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">What's New</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">More content in the Microsoft Store</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"  href="">Apps</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Games</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Movies & TV</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Windows Experience Blog</a></div>
+            </div>
+            <div style="display: grid; height: 250px; margin-right: 95px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Microsoft Store</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Microsoft account</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Microsoft Store support</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Returns</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Flexible payments</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Policies and Code of Conduct</a></div>
+            </div>
+            <div style="display: grid; height: 190px; margin-right: 95px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">For Developers</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Publish your app</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"  href="">Advertise with us</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Generate your app badge</a></div>
+            </div>
+            <div style="display: grid; height: 350px;">
+                <h1 style="color: white; font-size: 16px; font-weight: 600; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Windows</h1>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Careers</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;"  href="">About Microsoft</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Company News</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Investors</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Diversity & inclusion</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Accessibility</a></div>
+                <div><a onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;" href="">Sustainability</a></div>
+            </div>
+        </div>
+        <div style="display: flex; padding-left: 9vw; margin-top: 50px;">
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Contact Microsoft</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Privacy</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Consumer Health Privacy</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Terms of use</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Trademarks]</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Safety & eco</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">Recycling</a>
+            <a href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">About our ads</a>
+            <label id="copyright" style="margin-right: 25px; text-decoration: none; color: hsl(240 5.3% 58%); font-size: 0.75rem; font-weight: 500; font-family: Segoe UI Variable Text, Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;">&copy; DevMidey 2023</label>
+        </div>
+    </footer>
+    <script>
+        function showCustomAlert() {
+            document.getElementById("myModal").style.display = "block";
+        }
+        function closeCustomAlert() {
+            document.getElementById("myModal").style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("myModal")) {
+                document.getElementById("myModal").style.display = "none";
+            }
+        }
+
+        var currentYear = new Date().getFullYear();
+        document.getElementById('copyright').innerHTML = 
+        '&copy;' +' ' + 'DevMidey' + ' ' + currentYear; 
+    </script>
+</body>
+</html>
